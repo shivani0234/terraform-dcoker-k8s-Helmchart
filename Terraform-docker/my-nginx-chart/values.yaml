@@ -1,0 +1,20 @@
+replicaCount: 2
+
+image:
+  repository: my-nginx-custom
+  tag: latest
+
+service:
+  type: NodePort
+  port: 80
+  nodePort: 30007   # ✅ FIXED
+
+serviceAccount:
+  create: true
+  name: ""
+ingress:
+  enabled: false
+httpRoute:
+  enabled: false
+autoscaling:
+  enabled: false
