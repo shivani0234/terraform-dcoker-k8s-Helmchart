@@ -19,7 +19,7 @@ Terraform-docker/
 │   ├── Dockerfile
 │   └── index.html
 │
-│── my-nginx-chart/
+
 │   ├── templates/
 │   ├── values.yaml
 │   └── Chart.yaml
@@ -40,6 +40,7 @@ Make sure you have installed:
 * Git
 
 ---
+<img width="1536" height="1024" alt="ChatGPT Image Mar 25, 2026, 03_17_28 AM" src="https://github.com/user-attachments/assets/723e8298-7bfa-4b7a-862a-a326bcdc6eab" />
 
 ## 🐳 Step 1: Build Docker Image
 
